@@ -5,7 +5,7 @@ This project demonstrates how to bridge Python (Computer Vision) with Arduino (H
 -> Project Description
 A Computer Vision-based system that uses a webcam to track hand landmarks and sends serial commands to an Arduino Uno. This allows for dynamic control of:
 * 3 LEDs:Turning them ON/OFF or controlling brightness (The pins can be changed ).
-* Servo Motor: Adjusting movement speed based on finger distance.
+* Servo Motor: Adjusting movement speed based on finger distance(You can also change the pin for it).
 
 ->Tech Stack
 * Language: Python 3.12.3
