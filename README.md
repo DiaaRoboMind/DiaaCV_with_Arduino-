@@ -18,3 +18,7 @@ A Computer Vision-based system that uses a webcam to track hand landmarks and se
 1. Hardware: Connect your Arduino and components as per the code pins.
 2. Setup Python:
    pip install opencv-python mediapipe pyserial
+3. Grant Serial Port Permissions (Linux):
+   Open your terminal and run:
+   ```bash
+   sudo chmod 666 /dev/ttyACM0
